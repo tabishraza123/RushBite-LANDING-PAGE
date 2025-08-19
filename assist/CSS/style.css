@@ -135,6 +135,7 @@ header .container {
 .nav-link .menu-page-link li a {
     color: var(--primary-color);
     font-size: var(--font-16);
+    -ms-layout-grid: blur;
 
 }
 
@@ -515,8 +516,8 @@ header .container {
 
     margin-inline: auto;
     padding-top: 2rem;
-    padding-bottom: 5rem;
-    padding-inline: 1rem;
+    padding-bottom: 8rem;
+    padding-inline: 5rem;
     text-align: center;
 
 
@@ -670,17 +671,7 @@ header .container {
     color: var(--primary-color);
     font-family: var(--robotoflex-font);
     padding-bottom: .40rem;
-}
-
-.star-1 {
-    bottom: 4rem;
-    left: 30rem;
-}
-
-.star-2 {
-    top: 20rem;
-    right: 23rem;
-
+    gap: 5px;
 }
 
 .box {
