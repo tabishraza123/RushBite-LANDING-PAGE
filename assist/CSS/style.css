@@ -91,7 +91,7 @@ body {
 
 header {
 
-    background-image: linear-gradient(to right, WHITE 55%, #f18958bb);
+    background-image: linear-gradient(to right, WHITE 55%, #eb956ebb);
     padding-bottom: 3rem;
 
 }
@@ -674,6 +674,17 @@ header .container {
     gap: 5px;
 }
 
+.star-1 {
+    bottom: 4rem;
+    left: 30rem;
+}
+
+.star-2 {
+    top: 20rem;
+    right: 23rem;
+
+}
+
 .box {
     width: 15px;
     height: 15px;
@@ -830,7 +841,7 @@ header .container {
     min-height: 66px;
     margin: auto;
     font-size: 17px;
-    color: #1A1A1A;
+    color: #5c4d4d;
     padding-bottom: 2rem;
     font-family: var(--inter-font);
 }
